@@ -1,0 +1,8 @@
+带参数的 int main(int argc, char const *argv[])
+{
+	argc 是 数 ，argv[0] 是main,argv[1->]是其他的字符串
+	命令行调用时
+	切目录 首先 F: 然后cd G\c 就切到F\G\c目录中
+	执行程序  248.exe txtx1.txt 先写exe文件，再写目标文件
+	return 0;
+}
