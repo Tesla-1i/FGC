@@ -1,6 +1,8 @@
 #include<stdio.h>
-int main()
-{
-	printf("aaaa\n");
-	return 0;
+
+int main(){
+    int a = 0;
+    printf("a  %d\n",a);
+    return 0;
+
 }
