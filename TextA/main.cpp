@@ -53,7 +53,7 @@ int main(){
         swap(&b, &c);
     printf("由大到小排序: %d %d %d\n",a, b, c);
     return 0;
-}*/
+}
 
 //计算字符串中子串出现的次数
 
@@ -84,3 +84,24 @@ int main(){
     printf("sum = %d\n",sum);
     return 0;
 }
+
+float average(float (*p)[5]);
+
+int main(){
+    int i;
+    float courseAverage[3], score[3][5] = {{1,1,1,3,3},{1,1,1,6,6},{2,2,2,2,2}};
+    for(i = 0; i < 3; i++)
+        courseAverage[i] = average(score + i);
+    for(i = 0; i < 3; i++)
+        printf("course%.2d   成绩 %.2f\n",i+1,courseAverage[i]);
+    return 0;
+}
+
+float average(float (*p)[5]){
+    int i;
+    float sum = 0;
+    for(i = 0; i < 5; i++)
+        sum = sum + *(*p + i);
+    //指向数组的指针，等同于二维数组名，*p+i是列地址，对他间接访问，得到元素值
+    return sum/5;
+}*/

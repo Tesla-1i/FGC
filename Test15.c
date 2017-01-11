@@ -1,3 +1,4 @@
+//字符串连接，
 //2．字符串连接
 //#include<stdio.h>
 #include <stdio.h>
