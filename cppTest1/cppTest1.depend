@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1486685522 source:f:\g\c\fgc\cpptest1\main.cpp
+	<iostream>
+	<cmath>
+	"point.h"
+
+1486685857 f:\g\c\fgc\cpptest1\point.h
+
